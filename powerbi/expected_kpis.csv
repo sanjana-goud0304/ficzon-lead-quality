@@ -1,0 +1,636 @@
+scope,slice,metric,value
+overall,All leads,total_leads,7422.0
+overall,All leads,high_potential_leads,2849.0
+overall,All leads,high_potential_rate,0.383859
+overall,All leads,converted_leads,852.0
+overall,All leads,conversion_rate,0.114794
+overall,All leads,no_engagement_rate,0.359068
+overall,All leads,unresolved_share,0.011048
+overall,All leads,high_rate_wilson_lower,0.372857
+overall,All leads,high_rate_wilson_upper,0.39498
+month,2018-04,total_leads,115.0
+month,2018-04,high_potential_leads,47.0
+month,2018-04,high_potential_rate,0.408696
+month,2018-04,converted_leads,25.0
+month,2018-04,conversion_rate,0.217391
+month,2018-04,no_engagement_rate,0.26087
+month,2018-04,unresolved_share,0.008696
+month,2018-04,high_rate_wilson_lower,0.323213
+month,2018-04,high_rate_wilson_upper,0.500081
+month,2018-05,total_leads,1260.0
+month,2018-05,high_potential_leads,428.0
+month,2018-05,high_potential_rate,0.339683
+month,2018-05,converted_leads,202.0
+month,2018-05,conversion_rate,0.160317
+month,2018-05,no_engagement_rate,0.353175
+month,2018-05,unresolved_share,0.000794
+month,2018-05,high_rate_wilson_lower,0.314054
+month,2018-05,high_rate_wilson_upper,0.366285
+month,2018-06,total_leads,1285.0
+month,2018-06,high_potential_leads,443.0
+month,2018-06,high_potential_rate,0.344747
+month,2018-06,converted_leads,185.0
+month,2018-06,conversion_rate,0.143969
+month,2018-06,no_engagement_rate,0.379767
+month,2018-06,unresolved_share,0.010117
+month,2018-06,high_rate_wilson_lower,0.319257
+month,2018-06,high_rate_wilson_upper,0.371162
+month,2018-07,total_leads,1157.0
+month,2018-07,high_potential_leads,404.0
+month,2018-07,high_potential_rate,0.349179
+month,2018-07,converted_leads,133.0
+month,2018-07,conversion_rate,0.114952
+month,2018-07,no_engagement_rate,0.400173
+month,2018-07,unresolved_share,0.003457
+month,2018-07,high_rate_wilson_lower,0.32225
+month,2018-07,high_rate_wilson_upper,0.377106
+month,2018-08,total_leads,1119.0
+month,2018-08,high_potential_leads,408.0
+month,2018-08,high_potential_rate,0.364611
+month,2018-08,converted_leads,120.0
+month,2018-08,conversion_rate,0.107239
+month,2018-08,no_engagement_rate,0.400357
+month,2018-08,unresolved_share,0.011618
+month,2018-08,high_rate_wilson_lower,0.336917
+month,2018-08,high_rate_wilson_upper,0.393232
+month,2018-09,total_leads,1103.0
+month,2018-09,high_potential_leads,489.0
+month,2018-09,high_potential_rate,0.443336
+month,2018-09,converted_leads,107.0
+month,2018-09,conversion_rate,0.097008
+month,2018-09,no_engagement_rate,0.335449
+month,2018-09,unresolved_share,0.003626
+month,2018-09,high_rate_wilson_lower,0.414265
+month,2018-09,high_rate_wilson_upper,0.472801
+month,2018-10,total_leads,1000.0
+month,2018-10,high_potential_leads,453.0
+month,2018-10,high_potential_rate,0.453
+month,2018-10,converted_leads,66.0
+month,2018-10,conversion_rate,0.066
+month,2018-10,no_engagement_rate,0.32
+month,2018-10,unresolved_share,0.007
+month,2018-10,high_rate_wilson_lower,0.422385
+month,2018-10,high_rate_wilson_upper,0.483974
+month,2018-11,total_leads,383.0
+month,2018-11,high_potential_leads,177.0
+month,2018-11,high_potential_rate,0.462141
+month,2018-11,converted_leads,14.0
+month,2018-11,conversion_rate,0.036554
+month,2018-11,no_engagement_rate,0.263708
+month,2018-11,unresolved_share,0.101828
+month,2018-11,high_rate_wilson_lower,0.412832
+month,2018-11,high_rate_wilson_upper,0.512202
+source_group,By Recommendation,total_leads,32.0
+source_group,By Recommendation,high_potential_leads,28.0
+source_group,By Recommendation,high_potential_rate,0.875
+source_group,By Recommendation,converted_leads,18.0
+source_group,By Recommendation,conversion_rate,0.5625
+source_group,By Recommendation,no_engagement_rate,0.0625
+source_group,By Recommendation,unresolved_share,0.03125
+source_group,By Recommendation,high_rate_wilson_lower,0.719314
+source_group,By Recommendation,high_rate_wilson_upper,0.950299
+source_group,Call,total_leads,2547.0
+source_group,Call,high_potential_leads,917.0
+source_group,Call,high_potential_rate,0.360031
+source_group,Call,converted_leads,241.0
+source_group,Call,conversion_rate,0.094621
+source_group,Call,no_engagement_rate,0.407538
+source_group,Call,unresolved_share,0.006282
+source_group,Call,high_rate_wilson_lower,0.341613
+source_group,Call,high_rate_wilson_upper,0.378871
+source_group,Customer Referral,total_leads,180.0
+source_group,Customer Referral,high_potential_leads,161.0
+source_group,Customer Referral,high_potential_rate,0.894444
+source_group,Customer Referral,converted_leads,120.0
+source_group,Customer Referral,conversion_rate,0.666667
+source_group,Customer Referral,no_engagement_rate,0.05
+source_group,Customer Referral,unresolved_share,0.0
+source_group,Customer Referral,high_rate_wilson_lower,0.841027
+source_group,Customer Referral,high_rate_wilson_upper,0.931378
+source_group,Existing Client,total_leads,73.0
+source_group,Existing Client,high_potential_leads,68.0
+source_group,Existing Client,high_potential_rate,0.931507
+source_group,Existing Client,converted_leads,48.0
+source_group,Existing Client,conversion_rate,0.657534
+source_group,Existing Client,no_engagement_rate,0.027397
+source_group,Existing Client,unresolved_share,0.0
+source_group,Existing Client,high_rate_wilson_lower,0.849477
+source_group,Existing Client,high_rate_wilson_upper,0.970391
+source_group,Just Dial,total_leads,57.0
+source_group,Just Dial,high_potential_leads,14.0
+source_group,Just Dial,high_potential_rate,0.245614
+source_group,Just Dial,converted_leads,1.0
+source_group,Just Dial,conversion_rate,0.017544
+source_group,Just Dial,no_engagement_rate,0.368421
+source_group,Just Dial,unresolved_share,0.0
+source_group,Just Dial,high_rate_wilson_lower,0.152327
+source_group,Just Dial,high_rate_wilson_upper,0.371025
+source_group,Live Chat-Blog,total_leads,237.0
+source_group,Live Chat-Blog,high_potential_leads,76.0
+source_group,Live Chat-Blog,high_potential_rate,0.320675
+source_group,Live Chat-Blog,converted_leads,11.0
+source_group,Live Chat-Blog,conversion_rate,0.046414
+source_group,Live Chat-Blog,no_engagement_rate,0.396624
+source_group,Live Chat-Blog,unresolved_share,0.0
+source_group,Live Chat-Blog,high_rate_wilson_lower,0.264519
+source_group,Live Chat-Blog,high_rate_wilson_upper,0.382552
+source_group,Live Chat-CPC,total_leads,50.0
+source_group,Live Chat-CPC,high_potential_leads,12.0
+source_group,Live Chat-CPC,high_potential_rate,0.24
+source_group,Live Chat-CPC,converted_leads,1.0
+source_group,Live Chat-CPC,conversion_rate,0.02
+source_group,Live Chat-CPC,no_engagement_rate,0.4
+source_group,Live Chat-CPC,unresolved_share,0.02
+source_group,Live Chat-CPC,high_rate_wilson_lower,0.142973
+source_group,Live Chat-CPC,high_rate_wilson_upper,0.374129
+source_group,Live Chat-Direct,total_leads,1834.0
+source_group,Live Chat-Direct,high_potential_leads,716.0
+source_group,Live Chat-Direct,high_potential_rate,0.390403
+source_group,Live Chat-Direct,converted_leads,183.0
+source_group,Live Chat-Direct,conversion_rate,0.099782
+source_group,Live Chat-Direct,no_engagement_rate,0.342421
+source_group,Live Chat-Direct,unresolved_share,0.004907
+source_group,Live Chat-Direct,high_rate_wilson_lower,0.368328
+source_group,Live Chat-Direct,high_rate_wilson_upper,0.412938
+source_group,Live Chat-Google Organic,total_leads,274.0
+source_group,Live Chat-Google Organic,high_potential_leads,120.0
+source_group,Live Chat-Google Organic,high_potential_rate,0.437956
+source_group,Live Chat-Google Organic,converted_leads,39.0
+source_group,Live Chat-Google Organic,conversion_rate,0.142336
+source_group,Live Chat-Google Organic,no_engagement_rate,0.284672
+source_group,Live Chat-Google Organic,unresolved_share,0.014599
+source_group,Live Chat-Google Organic,high_rate_wilson_lower,0.380469
+source_group,Live Chat-Google Organic,high_rate_wilson_upper,0.497159
+source_group,Live Chat-PPC,total_leads,249.0
+source_group,Live Chat-PPC,high_potential_leads,95.0
+source_group,Live Chat-PPC,high_potential_rate,0.381526
+source_group,Live Chat-PPC,converted_leads,11.0
+source_group,Live Chat-PPC,conversion_rate,0.044177
+source_group,Live Chat-PPC,no_engagement_rate,0.325301
+source_group,Live Chat-PPC,unresolved_share,0.004016
+source_group,Live Chat-PPC,high_rate_wilson_lower,0.323423
+source_group,Live Chat-PPC,high_rate_wilson_upper,0.443229
+source_group,Personal Contact,total_leads,50.0
+source_group,Personal Contact,high_potential_leads,39.0
+source_group,Personal Contact,high_potential_rate,0.78
+source_group,Personal Contact,converted_leads,17.0
+source_group,Personal Contact,conversion_rate,0.34
+source_group,Personal Contact,no_engagement_rate,0.16
+source_group,Personal Contact,unresolved_share,0.0
+source_group,Personal Contact,high_rate_wilson_lower,0.647582
+source_group,Personal Contact,high_rate_wilson_upper,0.872462
+source_group,US Website,total_leads,137.0
+source_group,US Website,high_potential_leads,2.0
+source_group,US Website,high_potential_rate,0.014599
+source_group,US Website,converted_leads,0.0
+source_group,US Website,conversion_rate,0.0
+source_group,US Website,no_engagement_rate,0.686131
+source_group,US Website,unresolved_share,0.007299
+source_group,US Website,high_rate_wilson_lower,0.004013
+source_group,US Website,high_rate_wilson_upper,0.051664
+source_group,Website,total_leads,1594.0
+source_group,Website,high_potential_leads,568.0
+source_group,Website,high_potential_rate,0.356336
+source_group,Website,converted_leads,147.0
+source_group,Website,conversion_rate,0.092221
+source_group,Website,no_engagement_rate,0.349435
+source_group,Website,unresolved_share,0.023839
+source_group,Website,high_rate_wilson_lower,0.333196
+source_group,Website,high_rate_wilson_upper,0.380167
+delivery_mode,Mode-1,total_leads,2627.0
+delivery_mode,Mode-1,high_potential_leads,1331.0
+delivery_mode,Mode-1,high_potential_rate,0.506662
+delivery_mode,Mode-1,converted_leads,436.0
+delivery_mode,Mode-1,conversion_rate,0.165969
+delivery_mode,Mode-1,no_engagement_rate,0.251618
+delivery_mode,Mode-1,unresolved_share,0.002284
+delivery_mode,Mode-1,high_rate_wilson_lower,0.487547
+delivery_mode,Mode-1,high_rate_wilson_upper,0.525757
+delivery_mode,Mode-3,total_leads,1688.0
+delivery_mode,Mode-3,high_potential_leads,698.0
+delivery_mode,Mode-3,high_potential_rate,0.413507
+delivery_mode,Mode-3,converted_leads,171.0
+delivery_mode,Mode-3,conversion_rate,0.101303
+delivery_mode,Mode-3,no_engagement_rate,0.300948
+delivery_mode,Mode-3,unresolved_share,0.002962
+delivery_mode,Mode-3,high_rate_wilson_lower,0.390236
+delivery_mode,Mode-3,high_rate_wilson_upper,0.437171
+delivery_mode,Mode-4,total_leads,121.0
+delivery_mode,Mode-4,high_potential_leads,81.0
+delivery_mode,Mode-4,high_potential_rate,0.669421
+delivery_mode,Mode-4,converted_leads,53.0
+delivery_mode,Mode-4,conversion_rate,0.438017
+delivery_mode,Mode-4,no_engagement_rate,0.173554
+delivery_mode,Mode-4,unresolved_share,0.008264
+delivery_mode,Mode-4,high_rate_wilson_lower,0.581523
+delivery_mode,Mode-4,high_rate_wilson_upper,0.746893
+delivery_mode,Mode-5,total_leads,2975.0
+delivery_mode,Mode-5,high_potential_leads,733.0
+delivery_mode,Mode-5,high_potential_rate,0.246387
+delivery_mode,Mode-5,converted_leads,189.0
+delivery_mode,Mode-5,conversion_rate,0.063529
+delivery_mode,Mode-5,no_engagement_rate,0.495798
+delivery_mode,Mode-5,unresolved_share,0.023193
+delivery_mode,Mode-5,high_rate_wilson_lower,0.231236
+delivery_mode,Mode-5,high_rate_wilson_upper,0.262192
+location,(missing),total_leads,58.0
+location,(missing),high_potential_leads,1.0
+location,(missing),high_potential_rate,0.017241
+location,(missing),converted_leads,0.0
+location,(missing),conversion_rate,0.0
+location,(missing),no_engagement_rate,0.086207
+location,(missing),unresolved_share,0.844828
+location,(missing),high_rate_wilson_lower,0.00305
+location,(missing),high_rate_wilson_upper,0.091411
+location,Bangalore,total_leads,2084.0
+location,Bangalore,high_potential_leads,1269.0
+location,Bangalore,high_potential_rate,0.608925
+location,Bangalore,converted_leads,470.0
+location,Bangalore,conversion_rate,0.225528
+location,Bangalore,no_engagement_rate,0.207294
+location,Bangalore,unresolved_share,0.00096
+location,Bangalore,high_rate_wilson_lower,0.587791
+location,Bangalore,high_rate_wilson_upper,0.629658
+location,Chennai,total_leads,909.0
+location,Chennai,high_potential_leads,460.0
+location,Chennai,high_potential_rate,0.506051
+location,Chennai,converted_leads,114.0
+location,Chennai,conversion_rate,0.125413
+location,Chennai,no_engagement_rate,0.236524
+location,Chennai,unresolved_share,0.0011
+location,Chennai,high_rate_wilson_lower,0.473591
+location,Chennai,high_rate_wilson_upper,0.538459
+location,Delhi,total_leads,471.0
+location,Delhi,high_potential_leads,165.0
+location,Delhi,high_potential_rate,0.350318
+location,Delhi,converted_leads,40.0
+location,Delhi,conversion_rate,0.084926
+location,Delhi,no_engagement_rate,0.278132
+location,Delhi,unresolved_share,0.0
+location,Delhi,high_rate_wilson_lower,0.308602
+location,Delhi,high_rate_wilson_upper,0.394457
+location,Hyderabad,total_leads,528.0
+location,Hyderabad,high_potential_leads,206.0
+location,Hyderabad,high_potential_rate,0.390152
+location,Hyderabad,converted_leads,55.0
+location,Hyderabad,conversion_rate,0.104167
+location,Hyderabad,no_engagement_rate,0.276515
+location,Hyderabad,unresolved_share,0.0
+location,Hyderabad,high_rate_wilson_lower,0.349481
+location,Hyderabad,high_rate_wilson_upper,0.432409
+location,Kolkata,total_leads,55.0
+location,Kolkata,high_potential_leads,13.0
+location,Kolkata,high_potential_rate,0.236364
+location,Kolkata,converted_leads,2.0
+location,Kolkata,conversion_rate,0.036364
+location,Kolkata,no_engagement_rate,0.381818
+location,Kolkata,unresolved_share,0.0
+location,Kolkata,high_rate_wilson_lower,0.143665
+location,Kolkata,high_rate_wilson_upper,0.363486
+location,Mumbai,total_leads,402.0
+location,Mumbai,high_potential_leads,140.0
+location,Mumbai,high_potential_rate,0.348259
+location,Mumbai,converted_leads,25.0
+location,Mumbai,conversion_rate,0.062189
+location,Mumbai,no_engagement_rate,0.273632
+location,Mumbai,unresolved_share,0.004975
+location,Mumbai,high_rate_wilson_lower,0.303321
+location,Mumbai,high_rate_wilson_upper,0.396069
+location,Other Locations,total_leads,2500.0
+location,Other Locations,high_potential_leads,429.0
+location,Other Locations,high_potential_rate,0.1716
+location,Other Locations,converted_leads,83.0
+location,Other Locations,conversion_rate,0.0332
+location,Other Locations,no_engagement_rate,0.5852
+location,Other Locations,unresolved_share,0.0096
+location,Other Locations,high_rate_wilson_lower,0.157327
+location,Other Locations,high_rate_wilson_upper,0.186881
+location,Pune,total_leads,142.0
+location,Pune,high_potential_leads,43.0
+location,Pune,high_potential_rate,0.302817
+location,Pune,converted_leads,10.0
+location,Pune,conversion_rate,0.070423
+location,Pune,no_engagement_rate,0.373239
+location,Pune,unresolved_share,0.014085
+location,Pune,high_rate_wilson_lower,0.233258
+location,Pune,high_rate_wilson_upper,0.382764
+location,Trivandrum,total_leads,58.0
+location,Trivandrum,high_potential_leads,22.0
+location,Trivandrum,high_potential_rate,0.37931
+location,Trivandrum,converted_leads,7.0
+location,Trivandrum,conversion_rate,0.12069
+location,Trivandrum,no_engagement_rate,0.362069
+location,Trivandrum,unresolved_share,0.0
+location,Trivandrum,high_rate_wilson_lower,0.265641
+location,Trivandrum,high_rate_wilson_upper,0.507974
+location,UAE,total_leads,79.0
+location,UAE,high_potential_leads,38.0
+location,UAE,high_potential_rate,0.481013
+location,UAE,converted_leads,17.0
+location,UAE,conversion_rate,0.21519
+location,UAE,no_engagement_rate,0.303797
+location,UAE,unresolved_share,0.012658
+location,UAE,high_rate_wilson_lower,0.374295
+location,UAE,high_rate_wilson_upper,0.589491
+location,UK,total_leads,41.0
+location,UK,high_potential_leads,20.0
+location,UK,high_potential_rate,0.487805
+location,UK,converted_leads,12.0
+location,UK,conversion_rate,0.292683
+location,UK,no_engagement_rate,0.268293
+location,UK,unresolved_share,0.0
+location,UK,high_rate_wilson_lower,0.342542
+location,UK,high_rate_wilson_upper,0.635157
+location,USA,total_leads,45.0
+location,USA,high_potential_leads,17.0
+location,USA,high_potential_rate,0.377778
+location,USA,converted_leads,6.0
+location,USA,conversion_rate,0.133333
+location,USA,no_engagement_rate,0.444444
+location,USA,unresolved_share,0.022222
+location,USA,high_rate_wilson_lower,0.251079
+location,USA,high_rate_wilson_upper,0.523703
+sales_agent,Sales-Agent-10,total_leads,49.0
+sales_agent,Sales-Agent-10,high_potential_leads,0.0
+sales_agent,Sales-Agent-10,high_potential_rate,0.0
+sales_agent,Sales-Agent-10,converted_leads,0.0
+sales_agent,Sales-Agent-10,conversion_rate,0.0
+sales_agent,Sales-Agent-10,no_engagement_rate,0.102041
+sales_agent,Sales-Agent-10,unresolved_share,0.897959
+sales_agent,Sales-Agent-10,high_rate_wilson_lower,0.0
+sales_agent,Sales-Agent-10,high_rate_wilson_upper,0.0727
+sales_agent,Sales-Agent-11,total_leads,1420.0
+sales_agent,Sales-Agent-11,high_potential_leads,496.0
+sales_agent,Sales-Agent-11,high_potential_rate,0.349296
+sales_agent,Sales-Agent-11,converted_leads,119.0
+sales_agent,Sales-Agent-11,conversion_rate,0.083803
+sales_agent,Sales-Agent-11,no_engagement_rate,0.383803
+sales_agent,Sales-Agent-11,unresolved_share,0.000704
+sales_agent,Sales-Agent-11,high_rate_wilson_lower,0.324935
+sales_agent,Sales-Agent-11,high_rate_wilson_upper,0.374469
+sales_agent,Sales-Agent-12,total_leads,269.0
+sales_agent,Sales-Agent-12,high_potential_leads,82.0
+sales_agent,Sales-Agent-12,high_potential_rate,0.304833
+sales_agent,Sales-Agent-12,converted_leads,82.0
+sales_agent,Sales-Agent-12,conversion_rate,0.304833
+sales_agent,Sales-Agent-12,no_engagement_rate,0.29368
+sales_agent,Sales-Agent-12,unresolved_share,0.0
+sales_agent,Sales-Agent-12,high_rate_wilson_lower,0.252888
+sales_agent,Sales-Agent-12,high_rate_wilson_upper,0.362273
+sales_agent,Sales-Agent-2,total_leads,389.0
+sales_agent,Sales-Agent-2,high_potential_leads,173.0
+sales_agent,Sales-Agent-2,high_potential_rate,0.44473
+sales_agent,Sales-Agent-2,converted_leads,61.0
+sales_agent,Sales-Agent-2,conversion_rate,0.156812
+sales_agent,Sales-Agent-2,no_engagement_rate,0.285347
+sales_agent,Sales-Agent-2,unresolved_share,0.0
+sales_agent,Sales-Agent-2,high_rate_wilson_lower,0.396126
+sales_agent,Sales-Agent-2,high_rate_wilson_upper,0.494415
+sales_agent,Sales-Agent-3,total_leads,781.0
+sales_agent,Sales-Agent-3,high_potential_leads,279.0
+sales_agent,Sales-Agent-3,high_potential_rate,0.357234
+sales_agent,Sales-Agent-3,converted_leads,123.0
+sales_agent,Sales-Agent-3,conversion_rate,0.15749
+sales_agent,Sales-Agent-3,no_engagement_rate,0.389245
+sales_agent,Sales-Agent-3,unresolved_share,0.00128
+sales_agent,Sales-Agent-3,high_rate_wilson_lower,0.324401
+sales_agent,Sales-Agent-3,high_rate_wilson_upper,0.391465
+sales_agent,Sales-Agent-4,total_leads,1500.0
+sales_agent,Sales-Agent-4,high_potential_leads,547.0
+sales_agent,Sales-Agent-4,high_potential_rate,0.364667
+sales_agent,Sales-Agent-4,converted_leads,131.0
+sales_agent,Sales-Agent-4,conversion_rate,0.087333
+sales_agent,Sales-Agent-4,no_engagement_rate,0.397333
+sales_agent,Sales-Agent-4,unresolved_share,0.0
+sales_agent,Sales-Agent-4,high_rate_wilson_lower,0.340682
+sales_agent,Sales-Agent-4,high_rate_wilson_upper,0.389343
+sales_agent,Sales-Agent-5,total_leads,1190.0
+sales_agent,Sales-Agent-5,high_potential_leads,311.0
+sales_agent,Sales-Agent-5,high_potential_rate,0.261345
+sales_agent,Sales-Agent-5,converted_leads,78.0
+sales_agent,Sales-Agent-5,conversion_rate,0.065546
+sales_agent,Sales-Agent-5,no_engagement_rate,0.42605
+sales_agent,Sales-Agent-5,unresolved_share,0.00084
+sales_agent,Sales-Agent-5,high_rate_wilson_lower,0.237177
+sales_agent,Sales-Agent-5,high_rate_wilson_upper,0.287048
+sales_agent,Sales-Agent-6,total_leads,114.0
+sales_agent,Sales-Agent-6,high_potential_leads,60.0
+sales_agent,Sales-Agent-6,high_potential_rate,0.526316
+sales_agent,Sales-Agent-6,converted_leads,37.0
+sales_agent,Sales-Agent-6,conversion_rate,0.324561
+sales_agent,Sales-Agent-6,no_engagement_rate,0.157895
+sales_agent,Sales-Agent-6,unresolved_share,0.0
+sales_agent,Sales-Agent-6,high_rate_wilson_lower,0.435302
+sales_agent,Sales-Agent-6,high_rate_wilson_upper,0.615614
+sales_agent,Sales-Agent-7,total_leads,736.0
+sales_agent,Sales-Agent-7,high_potential_leads,319.0
+sales_agent,Sales-Agent-7,high_potential_rate,0.433424
+sales_agent,Sales-Agent-7,converted_leads,89.0
+sales_agent,Sales-Agent-7,conversion_rate,0.120924
+sales_agent,Sales-Agent-7,no_engagement_rate,0.345109
+sales_agent,Sales-Agent-7,unresolved_share,0.0
+sales_agent,Sales-Agent-7,high_rate_wilson_lower,0.398059
+sales_agent,Sales-Agent-7,high_rate_wilson_upper,0.46948
+sales_agent,Sales-Agent-8,total_leads,68.0
+sales_agent,Sales-Agent-8,high_potential_leads,22.0
+sales_agent,Sales-Agent-8,high_potential_rate,0.323529
+sales_agent,Sales-Agent-8,converted_leads,15.0
+sales_agent,Sales-Agent-8,conversion_rate,0.220588
+sales_agent,Sales-Agent-8,no_engagement_rate,0.279412
+sales_agent,Sales-Agent-8,unresolved_share,0.25
+sales_agent,Sales-Agent-8,high_rate_wilson_lower,0.224374
+sales_agent,Sales-Agent-8,high_rate_wilson_upper,0.441557
+sales_agent,Sales-Agent-9,total_leads,879.0
+sales_agent,Sales-Agent-9,high_potential_leads,558.0
+sales_agent,Sales-Agent-9,high_potential_rate,0.634812
+sales_agent,Sales-Agent-9,converted_leads,117.0
+sales_agent,Sales-Agent-9,conversion_rate,0.133106
+sales_agent,Sales-Agent-9,no_engagement_rate,0.254835
+sales_agent,Sales-Agent-9,unresolved_share,0.0
+sales_agent,Sales-Agent-9,high_rate_wilson_lower,0.602459
+sales_agent,Sales-Agent-9,high_rate_wilson_upper,0.665992
+product,(missing),total_leads,58.0
+product,(missing),high_potential_leads,2.0
+product,(missing),high_potential_rate,0.034483
+product,(missing),converted_leads,0.0
+product,(missing),conversion_rate,0.0
+product,(missing),no_engagement_rate,0.068966
+product,(missing),unresolved_share,0.844828
+product,(missing),high_rate_wilson_lower,0.009508
+product,(missing),high_rate_wilson_upper,0.117294
+product,P1,total_leads,105.0
+product,P1,high_potential_leads,19.0
+product,P1,high_potential_rate,0.180952
+product,P1,converted_leads,0.0
+product,P1,conversion_rate,0.0
+product,P1,no_engagement_rate,0.485714
+product,P1,unresolved_share,0.009524
+product,P1,high_rate_wilson_lower,0.119016
+product,P1,high_rate_wilson_upper,0.265411
+product,P10,total_leads,168.0
+product,P10,high_potential_leads,96.0
+product,P10,high_potential_rate,0.571429
+product,P10,converted_leads,37.0
+product,P10,conversion_rate,0.220238
+product,P10,no_engagement_rate,0.172619
+product,P10,unresolved_share,0.0
+product,P10,high_rate_wilson_lower,0.495823
+product,P10,high_rate_wilson_upper,0.643841
+product,P12,total_leads,36.0
+product,P12,high_potential_leads,12.0
+product,P12,high_potential_rate,0.333333
+product,P12,converted_leads,4.0
+product,P12,conversion_rate,0.111111
+product,P12,no_engagement_rate,0.333333
+product,P12,unresolved_share,0.0
+product,P12,high_rate_wilson_lower,0.202144
+product,P12,high_rate_wilson_upper,0.496663
+product,P15,total_leads,1518.0
+product,P15,high_potential_leads,80.0
+product,P15,high_potential_rate,0.052701
+product,P15,converted_leads,2.0
+product,P15,conversion_rate,0.001318
+product,P15,no_engagement_rate,0.743742
+product,P15,unresolved_share,0.011858
+product,P15,high_rate_wilson_lower,0.042547
+product,P15,high_rate_wilson_upper,0.065113
+product,P18,total_leads,1711.0
+product,P18,high_potential_leads,834.0
+product,P18,high_potential_rate,0.487434
+product,P18,converted_leads,167.0
+product,P18,conversion_rate,0.097604
+product,P18,no_engagement_rate,0.254237
+product,P18,unresolved_share,0.001753
+product,P18,high_rate_wilson_lower,0.463804
+product,P18,high_rate_wilson_upper,0.51112
+product,P19,total_leads,1189.0
+product,P19,high_potential_leads,659.0
+product,P19,high_potential_rate,0.554247
+product,P19,converted_leads,262.0
+product,P19,conversion_rate,0.220353
+product,P19,no_engagement_rate,0.216989
+product,P19,unresolved_share,0.000841
+product,P19,high_rate_wilson_lower,0.525865
+product,P19,high_rate_wilson_upper,0.582281
+product,P2,total_leads,38.0
+product,P2,high_potential_leads,14.0
+product,P2,high_potential_rate,0.368421
+product,P2,converted_leads,1.0
+product,P2,conversion_rate,0.026316
+product,P2,no_engagement_rate,0.421053
+product,P2,unresolved_share,0.0
+product,P2,high_rate_wilson_lower,0.23384
+product,P2,high_rate_wilson_upper,0.527163
+product,P20,total_leads,102.0
+product,P20,high_potential_leads,60.0
+product,P20,high_potential_rate,0.588235
+product,P20,converted_leads,33.0
+product,P20,conversion_rate,0.323529
+product,P20,no_engagement_rate,0.264706
+product,P20,unresolved_share,0.0
+product,P20,high_rate_wilson_lower,0.491216
+product,P20,high_rate_wilson_upper,0.67885
+product,P21,total_leads,66.0
+product,P21,high_potential_leads,31.0
+product,P21,high_potential_rate,0.469697
+product,P21,converted_leads,15.0
+product,P21,conversion_rate,0.227273
+product,P21,no_engagement_rate,0.272727
+product,P21,unresolved_share,0.0
+product,P21,high_rate_wilson_lower,0.354302
+product,P21,high_rate_wilson_upper,0.588425
+product,P25,total_leads,90.0
+product,P25,high_potential_leads,37.0
+product,P25,high_potential_rate,0.411111
+product,P25,converted_leads,6.0
+product,P25,conversion_rate,0.066667
+product,P25,no_engagement_rate,0.422222
+product,P25,unresolved_share,0.0
+product,P25,high_rate_wilson_lower,0.31513
+product,P25,high_rate_wilson_upper,0.51437
+product,P26,total_leads,31.0
+product,P26,high_potential_leads,15.0
+product,P26,high_potential_rate,0.483871
+product,P26,converted_leads,2.0
+product,P26,conversion_rate,0.064516
+product,P26,no_engagement_rate,0.16129
+product,P26,unresolved_share,0.0
+product,P26,high_rate_wilson_lower,0.3197
+product,P26,high_rate_wilson_upper,0.651599
+product,P27,total_leads,739.0
+product,P27,high_potential_leads,330.0
+product,P27,high_potential_rate,0.446549
+product,P27,converted_leads,84.0
+product,P27,conversion_rate,0.113667
+product,P27,no_engagement_rate,0.282815
+product,P27,unresolved_share,0.002706
+product,P27,high_rate_wilson_lower,0.411074
+product,P27,high_rate_wilson_upper,0.482577
+product,P5,total_leads,487.0
+product,P5,high_potential_leads,154.0
+product,P5,high_potential_rate,0.316222
+product,P5,converted_leads,52.0
+product,P5,conversion_rate,0.106776
+product,P5,no_engagement_rate,0.349076
+product,P5,unresolved_share,0.008214
+product,P5,high_rate_wilson_lower,0.276497
+product,P5,high_rate_wilson_upper,0.358823
+product,P9,total_leads,992.0
+product,P9,high_potential_leads,492.0
+product,P9,high_potential_rate,0.495968
+product,P9,converted_leads,186.0
+product,P9,conversion_rate,0.1875
+product,P9,no_engagement_rate,0.215726
+product,P9,unresolved_share,0.001008
+product,P9,high_rate_wilson_lower,0.464929
+product,P9,high_rate_wilson_upper,0.527037
+month,2018-04,high_rate_rolling_3m,0.408696
+month,2018-05,high_rate_rolling_3m,0.345455
+month,2018-06,high_rate_rolling_3m,0.345113
+month,2018-07,high_rate_rolling_3m,0.344408
+month,2018-08,high_rate_rolling_3m,0.352429
+month,2018-09,high_rate_rolling_3m,0.385025
+month,2018-10,high_rate_rolling_3m,0.418994
+month,2018-11,high_rate_rolling_3m,0.450121
+model:test_months_final_model,creation_time,scored_leads,1383.0
+model:test_months_final_model,creation_time,top_k,277.0
+model:test_months_final_model,creation_time,high_in_top_k,152.0
+model:test_months_final_model,creation_time,precision_at_top,0.548736
+model:test_months_final_model,creation_time,recall_at_top,0.24127
+model:test_months_final_model,creation_time,base_rate,0.455531
+model:test_months_final_model,creation_time,lift_at_top,1.204607
+model:test_months_final_model,assignment_time,scored_leads,1383.0
+model:test_months_final_model,assignment_time,top_k,277.0
+model:test_months_final_model,assignment_time,high_in_top_k,206.0
+model:test_months_final_model,assignment_time,precision_at_top,0.743682
+model:test_months_final_model,assignment_time,recall_at_top,0.326984
+model:test_months_final_model,assignment_time,base_rate,0.455531
+model:test_months_final_model,assignment_time,lift_at_top,1.63256
+model:test_months_final_model,post_contact,scored_leads,1383.0
+model:test_months_final_model,post_contact,top_k,277.0
+model:test_months_final_model,post_contact,high_in_top_k,219.0
+model:test_months_final_model,post_contact,precision_at_top,0.790614
+model:test_months_final_model,post_contact,recall_at_top,0.347619
+model:test_months_final_model,post_contact,base_rate,0.455531
+model:test_months_final_model,post_contact,lift_at_top,1.735585
+model:all_scored_cv_oof_plus_test,creation_time,scored_leads,6047.0
+model:all_scored_cv_oof_plus_test,creation_time,top_k,1209.0
+model:all_scored_cv_oof_plus_test,creation_time,high_in_top_k,587.0
+model:all_scored_cv_oof_plus_test,creation_time,precision_at_top,0.485525
+model:all_scored_cv_oof_plus_test,creation_time,recall_at_top,0.247262
+model:all_scored_cv_oof_plus_test,creation_time,base_rate,0.392591
+model:all_scored_cv_oof_plus_test,creation_time,lift_at_top,1.236719
+model:all_scored_cv_oof_plus_test,assignment_time,scored_leads,6047.0
+model:all_scored_cv_oof_plus_test,assignment_time,top_k,1209.0
+model:all_scored_cv_oof_plus_test,assignment_time,high_in_top_k,825.0
+model:all_scored_cv_oof_plus_test,assignment_time,precision_at_top,0.682382
+model:all_scored_cv_oof_plus_test,assignment_time,recall_at_top,0.347515
+model:all_scored_cv_oof_plus_test,assignment_time,base_rate,0.392591
+model:all_scored_cv_oof_plus_test,assignment_time,lift_at_top,1.738149
+model:all_scored_cv_oof_plus_test,post_contact,scored_leads,6047.0
+model:all_scored_cv_oof_plus_test,post_contact,top_k,1209.0
+model:all_scored_cv_oof_plus_test,post_contact,high_in_top_k,879.0
+model:all_scored_cv_oof_plus_test,post_contact,precision_at_top,0.727047
+model:all_scored_cv_oof_plus_test,post_contact,recall_at_top,0.370261
+model:all_scored_cv_oof_plus_test,post_contact,base_rate,0.392591
+model:all_scored_cv_oof_plus_test,post_contact,lift_at_top,1.851918

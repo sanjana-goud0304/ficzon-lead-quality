@@ -1,0 +1,83 @@
+// FicZon lead-quality dashboard: DAX measures.
+// Executed in Power BI Desktop (DAX query view). Overall counts, rates, monthly/rolling-3M rates and the test-month top-20% model KPIs
+// matched powerbi/expected_kpis.csv; top-10% also matched an independent Python recomputation. Other slices/pages were not checked one by one.
+// Model: fact_leads[status] -> dim_status[status] (many-to-one); dim_date[Date] -> fact_leads[created_date];
+//        fact_scores[lead_id] <-> fact_leads[lead_id] (1:1, both directions); disconnected table ScoreModel[Model].
+
+// ---------- Volume and outcome KPIs ----------
+Total Leads = COUNTROWS ( fact_leads )
+
+High Potential Leads =
+CALCULATE ( [Total Leads], dim_status[lead_category] = "High Potential" )
+
+High Potential Rate = DIVIDE ( [High Potential Leads], [Total Leads] )
+
+Converted Leads = CALCULATE ( [Total Leads], dim_status[is_converted] = 1 )
+Conversion Rate = DIVIDE ( [Converted Leads], [Total Leads] )
+
+No Engagement Rate =
+DIVIDE ( CALCULATE ( [Total Leads], dim_status[is_no_engagement] = 1 ), [Total Leads] )
+
+Unresolved Share =
+DIVIDE ( CALCULATE ( [Total Leads], dim_status[is_unresolved] = 1 ), [Total Leads] )
+
+// ---------- Uncertainty (Wilson 95% interval for High Potential Rate) ----------
+Wilson Lower =
+VAR n = [Total Leads]
+VAR p = [High Potential Rate]
+VAR z = 1.96
+RETURN IF ( n = 0, BLANK (),
+    ( p + z ^ 2 / ( 2 * n ) - z * SQRT ( p * ( 1 - p ) / n + z ^ 2 / ( 4 * n ^ 2 ) ) ) / ( 1 + z ^ 2 / n ) )
+
+Wilson Upper =
+VAR n = [Total Leads]
+VAR p = [High Potential Rate]
+VAR z = 1.96
+RETURN IF ( n = 0, BLANK (),
+    ( p + z ^ 2 / ( 2 * n ) + z * SQRT ( p * ( 1 - p ) / n + z ^ 2 / ( 4 * n ^ 2 ) ) ) / ( 1 + z ^ 2 / n ) )
+
+// Show "low n" instead of a misleading rate on thin slices
+Small Sample Flag = IF ( [Total Leads] < 30, "n < 30: interpret with caution", "" )
+
+// ---------- Trend ----------
+// Pooled counts over the current and two previous calendar months (matches high_rate_rolling_3m in expected_kpis.csv).
+High Rate Rolling 3M =
+VAR win = DATESINPERIOD ( dim_date[Date], MAX ( dim_date[Date] ), -3, MONTH )
+RETURN DIVIDE ( CALCULATE ( [High Potential Leads], win ), CALCULATE ( [Total Leads], win ) )
+
+// Label-maturity caution: recent months have more unresolved in-flight statuses (see reports/phase3_eda.md addendum).
+Potential And In Progress Share =
+DIVIDE ( CALCULATE ( [Total Leads], dim_status[status] IN { "Potential", "In Progress Positive" } ), [Total Leads] )
+
+// ---------- Model KPIs: out-of-time scored leads only ----------
+// ScoreModel[Model] holds: creation_time, assignment_time, post_contact. Top share is a what-if parameter (default 0.20).
+Selected Score =
+VAR m = SELECTEDVALUE ( ScoreModel[Model], "post_contact" )
+RETURN SWITCH ( m, "creation_time", MAX ( fact_scores[score_creation_time] ),
+                   "assignment_time", MAX ( fact_scores[score_assignment_time] ),
+                   MAX ( fact_scores[score_post_contact] ) )
+
+Scored Leads = COUNTROWS ( fact_scores )
+
+// Top-K cut-off: rank by score desc, then lead_id asc (deterministic ties); k = round-half-up(share * n).
+Top K = INT ( [Top Share Value] * [Scored Leads] + 0.5 )
+
+Top Share Value = SELECTEDVALUE ( 'Top Share'[Value], 0.2 )   // 'Top Share' = GENERATESERIES(0.05, 0.5, 0.05); its column is named [Value]
+
+High In Top K =
+VAR m = SELECTEDVALUE ( ScoreModel[Model], "post_contact" )
+VAR scored = CALCULATETABLE ( fact_scores, ALLSELECTED ( fact_scores ) )
+VAR ranked =
+    ADDCOLUMNS ( scored, "@s",
+        SWITCH ( m, "creation_time", fact_scores[score_creation_time],
+                    "assignment_time", fact_scores[score_assignment_time],
+                    fact_scores[score_post_contact] ) )
+VAR topk = TOPN ( [Top K], ranked, [@s], DESC, fact_scores[lead_id], ASC )
+RETURN CALCULATE ( [High Potential Leads],
+        TREATAS ( SELECTCOLUMNS ( topk, "id", fact_scores[lead_id] ), fact_leads[lead_id] ) )
+
+Precision At Top = DIVIDE ( [High In Top K], [Top K] )
+Recall At Top    = DIVIDE ( [High In Top K], CALCULATE ( [High Potential Leads], ALLSELECTED ( fact_scores ) ) )
+Scored Base Rate = DIVIDE ( CALCULATE ( [High Potential Leads], ALLSELECTED ( fact_scores ) ), [Scored Leads] )
+Lift At Top      = DIVIDE ( [Precision At Top], [Scored Base Rate] )
+// Use slicer fact_scores[score_source] = "final_model" to reproduce the held-out Oct-Nov test figures.

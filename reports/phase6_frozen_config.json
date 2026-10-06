@@ -1,0 +1,137 @@
+{
+  "cv_months": [
+    "2018-06",
+    "2018-07",
+    "2018-08",
+    "2018-09"
+  ],
+  "parsimony_tolerance": 0.01,
+  "sets": {
+    "creation_time": {
+      "columns": [
+        "Source_clean",
+        "created_hour_bucket",
+        "created_dow"
+      ],
+      "model": "Logistic regression",
+      "params": {
+        "C": 10.0
+      },
+      "threshold": 0.3503288618954513,
+      "cv_pr_auc": 0.49549189051341447,
+      "cv_roc_auc": 0.5868647521723226,
+      "best_per_model": {
+        "Gradient boosting": 0.47346799264493933,
+        "Logistic regression": 0.49549189051341447,
+        "Random forest": 0.4980274771195318
+      },
+      "pooled_oof_flag_rate_at_threshold": 0.9502572898799314
+    },
+    "assignment_time": {
+      "columns": [
+        "Source_clean",
+        "created_hour_bucket",
+        "created_dow",
+        "Delivery_Mode",
+        "Location"
+      ],
+      "model": "Random forest",
+      "params": {
+        "max_depth": 4,
+        "min_samples_leaf": 10
+      },
+      "threshold": 0.47480420405503687,
+      "cv_pr_auc": 0.6182583117498774,
+      "cv_roc_auc": 0.7354628982002047,
+      "best_per_model": {
+        "Gradient boosting": 0.5897365233773837,
+        "Logistic regression": 0.6072700901484973,
+        "Random forest": 0.6182583117498774
+      },
+      "pooled_oof_flag_rate_at_threshold": 0.5499571183533448
+    },
+    "post_contact": {
+      "columns": [
+        "Source_clean",
+        "created_hour_bucket",
+        "created_dow",
+        "Delivery_Mode",
+        "Location",
+        "Product",
+        "email_valid"
+      ],
+      "model": "Logistic regression",
+      "params": {
+        "C": 10.0
+      },
+      "threshold": 0.41369352766276546,
+      "cv_pr_auc": 0.660695737125445,
+      "cv_roc_auc": 0.7723208766531746,
+      "best_per_model": {
+        "Gradient boosting": 0.6462520499991662,
+        "Logistic regression": 0.660695737125445,
+        "Random forest": 0.6603706830446853
+      },
+      "pooled_oof_flag_rate_at_threshold": 0.5999142367066895
+    }
+  },
+  "handler_aware": {
+    "creation_time+agent": {
+      "columns": [
+        "Source_clean",
+        "created_hour_bucket",
+        "created_dow",
+        "Sales_Agent"
+      ],
+      "model": "Logistic regression",
+      "params": {
+        "C": 10.0
+      },
+      "threshold": 0.34679874856891657,
+      "cv_pr_auc": 0.5512853339566691,
+      "cv_roc_auc": 0.6336377883949689
+    },
+    "assignment_time+agent": {
+      "columns": [
+        "Source_clean",
+        "created_hour_bucket",
+        "created_dow",
+        "Delivery_Mode",
+        "Location",
+        "Sales_Agent"
+      ],
+      "model": "Random forest",
+      "params": {
+        "max_depth": 4,
+        "min_samples_leaf": 10
+      },
+      "threshold": 0.47951442799235394,
+      "cv_pr_auc": 0.6374357810479938,
+      "cv_roc_auc": 0.7452815866716775
+    },
+    "post_contact+agent": {
+      "columns": [
+        "Source_clean",
+        "created_hour_bucket",
+        "created_dow",
+        "Delivery_Mode",
+        "Location",
+        "Product",
+        "email_valid",
+        "Sales_Agent"
+      ],
+      "model": "Logistic regression",
+      "params": {
+        "C": 10.0
+      },
+      "threshold": 0.4112609985953557,
+      "cv_pr_auc": 0.6642294379188513,
+      "cv_roc_auc": 0.773835420466631
+    }
+  },
+  "baselines_cv": {
+    "random_pr_auc_mean_of_fold_base_rates": 0.3754684020341811,
+    "source_rule_cv_pr_auc": 0.46776389345027236,
+    "source_rule_cv_roc_auc": 0.5627964707235681
+  }
+}

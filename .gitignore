@@ -1,0 +1,30 @@
+# Secrets
+.env
+*.pem
+
+# Data (contains customer PII - never commit)
+data/raw/
+data/interim/
+data/processed/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Row-level exports derived from customer data (generate locally with scripts/export_powerbi.py)
+powerbi/data/
+
+# Models and generated outputs from the notebook
+models/*.joblib
+*.pbix

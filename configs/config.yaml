@@ -1,0 +1,49 @@
+paths:
+  raw_csv: data/raw/sales_project.csv
+  sqlite_db: data/interim/leads.db
+
+csv:
+  sep: ";"
+  encoding: cp1252
+
+# Working target mapping. Pending project-owner sign-off; change here only.
+# "Open" is mapped to Low in the primary run (no rows are dropped).
+target:
+  high_potential:
+    - CONVERTED
+    - In Progress Positive
+    - Potential
+    - Long Term
+  low_potential:
+    - Junk Lead
+    - Not Responding
+    - Just Enquiry
+    - LOST
+    - In Progress Negative
+    - Open
+
+# KPI definitions shared by Python, SQL and the Power BI model (dim_status is generated from these).
+kpi_definitions:
+  converted: [CONVERTED]
+  no_engagement: [Junk Lead, Not Responding]
+  unresolved: [Open]
+
+# Label consolidation. ASSUMPTIONS - confirm with the project owner.
+# Only whitespace/spelling variants and obviously equivalent names are merged.
+source_map:
+  "Live Chat -PPC": "Live Chat-PPC"
+  "Existing Customer": "Existing Client"
+  "E-Mail Message": "Email"
+  "E-mail Campaign": "Email"
+  "Live Chat-Justdial": "Just Dial"
+
+# Time-ordered split. The test period is reserved for the final evaluation (Phase 6)
+# and must not be used for feature screening or tuning.
+split:
+  train_end: "2018-08-31 23:59:59"
+  val_end: "2018-09-30 23:59:59"   # test = everything after
+
+# Levels rarer than this are pooled inside the pipeline's one-hot encoder.
+min_category_count: 30
+
+random_seed: 42
